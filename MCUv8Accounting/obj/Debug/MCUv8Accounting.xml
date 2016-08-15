@@ -1,0 +1,1596 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MCUv8Accounting
+</name>
+</assembly>
+<members>
+<member name="T:MCUv8Accounting.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MCUv8Accounting.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MCUv8Accounting.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.accounttypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.appconfigDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccountsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccTrnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccTrn_CopyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAsset2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetDepreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetTransDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankBillerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankBillerTransDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCashAdvanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankChecksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCheckTrnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCustomGLEntryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankOperationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankOpTransDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankPayablesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankPettyCashDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankReconDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankRecon2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.CheckBooksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.CIF2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.dashboardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.DF_DATAFORMDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.DF_TBALDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.EODDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.EOD_DatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLACDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLAC_backupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLAC_V8DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLEntryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLSC_V8DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.glsc2014DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLSortDescDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.MasterTRNDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.menuleftDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.ModulesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SOAReconTransDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SVUCDEPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.tmpdashDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.transactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.userlevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.usertableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.VendorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_assetdepreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_bankcheckloadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_bankreconDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_BillerListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_BSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_FetchGLACCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_PostedTransactionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_RebuildBankAccTrnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_reconsummaryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_recontransDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_Recover_Dropped_ObjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_sched_apDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_TbalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_transactionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_DASH_RELOADDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_VALIDATE_CREDENTIALSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CHECKS_INVENTORYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CHECKS_INVENTORY_DETAILDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_ASSET_PURCHASESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_LOAN_DISBURSEMENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_SHARE_WITHDRAWALSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_VENDOR_LISTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_ASSET_LISTINGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_SALES_DISPOSALDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CASH_ADVANCEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_PETTY_CASHDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_BANK_CASH_INFO_LOADDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_BANKING_ACCOUNTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_TOTAL_CASH_DEPOSITSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.accounttypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.appconfigRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccountsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccTrnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccTrn_CopyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAsset2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetDepreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetTransRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankBillerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankBillerTransRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCashAdvanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankChecksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCheckTrnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCustomGLEntryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankOperationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankOpTransRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankPayablesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankPettyCashRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankReconRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankRecon2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.CheckBooksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.CIF2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.dashboardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.DF_DATAFORMRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.DF_TBALRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.EODRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.EOD_DatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLACRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLAC_backupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLAC_V8Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLEntryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLSC_V8Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.glsc2014Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLSortDescRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.MasterTRNRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.menuleftRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.ModulesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SOAReconTransRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SVUCDEPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.tmpdashRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.transactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.userlevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.usertableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.VendorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_assetdepreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_bankcheckloadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_bankreconRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_BillerListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_BSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_FetchGLACCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_PostedTransactionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_RebuildBankAccTrnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_reconsummaryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_recontransRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_Recover_Dropped_ObjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_sched_apRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_TbalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_transactionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_DASH_RELOADRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_VALIDATE_CREDENTIALSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CHECKS_INVENTORYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CHECKS_INVENTORY_DETAILRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_ASSET_PURCHASESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_LOAN_DISBURSEMENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_SHARE_WITHDRAWALSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_VENDOR_LISTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_ASSET_LISTINGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_SALES_DISPOSALRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CASH_ADVANCERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_PETTY_CASHRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_BANK_CASH_INFO_LOADRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_BANKING_ACCOUNTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_TOTAL_CASH_DEPOSITSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.accounttypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.appconfigRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccountsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccTrnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAccTrn_CopyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAsset2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetDepreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankAssetTransRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankBillerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankBillerTransRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCashAdvanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankChecksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCheckTrnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankCustomGLEntryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankOperationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankOpTransRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankPayablesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankPettyCashRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankReconRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankRecon2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.BankReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.CheckBooksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.CIF2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.dashboardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.DF_DATAFORMRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.DF_TBALRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.EODRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.EOD_DatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLACRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLAC_backupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLAC_V8RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLEntryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLSC_V8RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.glsc2014RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.GLSortDescRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.MasterTRNRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.menuleftRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.ModulesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SOAReconTransRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SVUCDEPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.tmpdashRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.transactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.userlevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.usertableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.VendorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_assetdepreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_bankcheckloadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_bankreconRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_BillerListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_BSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_FetchGLACCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_PostedTransactionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_RebuildBankAccTrnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_reconsummaryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_recontransRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_Recover_Dropped_ObjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_sched_apRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_TbalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.sp_transactionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_DASH_RELOADRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_VALIDATE_CREDENTIALSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CHECKS_INVENTORYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CHECKS_INVENTORY_DETAILRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_ASSET_PURCHASESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_LOAN_DISBURSEMENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_SHARE_WITHDRAWALSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_VENDOR_LISTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_ASSET_LISTINGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_SALES_DISPOSALRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_CASH_ADVANCERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_PETTY_CASHRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_BANK_CASH_INFO_LOADRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_BANKING_ACCOUNTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSet.SP_TOTAL_CASH_DEPOSITSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.accounttypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.appconfigTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankAccountsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankAccTrnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankAccTrn_CopyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankAssetTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankAsset2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankAssetDepreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankAssetTransTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankBillerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankBillerTransTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankCashAdvanceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankChecksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankCheckTrnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankCustomGLEntryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankOperationsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankOpTransTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankPayablesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankPettyCashTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankReconTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankRecon2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.BankReportsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.CheckBooksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.CIF2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.dashboardTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.DF_DATAFORMTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.DF_TBALTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.EODTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.EOD_DatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.GLACTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.GLAC_backupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.GLAC_V8TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.GLEntryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.GLSC_V8TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.glsc2014TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.GLSortDescTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.MasterTRNTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.menuleftTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.ModulesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SOAReconTransTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SVUCDEPTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.tmpdashTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.transactionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.userlevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.usertableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.VendorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_assetdepreTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_bankcheckloadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_bankreconTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_BillerListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_BSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_FetchGLACCTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_PostedTransactionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_RebuildBankAccTrnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_reconsummaryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_recontransTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_Recover_Dropped_ObjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_sched_apTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_TbalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.sp_transactionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_DASH_RELOADTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_VALIDATE_CREDENTIALSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_CHECKS_INVENTORYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_CHECKS_INVENTORY_DETAILTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_ASSET_PURCHASESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_LOAN_DISBURSEMENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_SHARE_WITHDRAWALSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_VENDOR_LISTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_ASSET_LISTINGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_SALES_DISPOSALTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_CASH_ADVANCETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_PETTY_CASHTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_BANK_CASH_INFO_LOADTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_BANKING_ACCOUNTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.SP_TOTAL_CASH_DEPOSITSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MCUv8Accounting.MBv8LedgerDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MCUv8Accounting.MBv8LedgerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MCUv8Accounting.MBv8LedgerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager.UpdateAll(MCUv8Accounting.MBv8LedgerDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCUv8Accounting.MBv8LedgerDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
